@@ -14,8 +14,9 @@
 ## line-height의 best practices
 - 하나의 서비스에 필요한 line-height tokens은 최소 2개
 ### length - px / em / rem
-### percentage - %
-### number
+### percentage - % / number
+### size tokens
+### figma와 연계되는 문제
 
 ## line-height와 rem 단위
 
