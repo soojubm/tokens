@@ -10,6 +10,15 @@
 - 하나의 구조를 위해 레이아웃의 변경을 염두하여 top, bottom, left, right 등의 방향으로 props를 명명해서는 안 됨. 결국 돌고 돌아 역할 기반으로.
 
 
+
+## line-height의 best practices
+- 하나의 서비스에 필요한 line-height tokens은 최소 2개
+### length - px / em / rem
+### percentage - %
+### number
+
+## line-height와 rem 단위
+
 ## 기타
 - 구조, 표현, 동작을 구분한다는 과거의 패러다임은 React 등으로 요원. 플랫폼과 콘텐츠의 시대에 웹서비스를 구성하는 컴포넌트나 구조는 굉장히 보편적이고 일반화.
 - 후려치면 표현은 tokens과 utilites의 조합으로 모두 가능. 이것들을 망라한 것이 디자인 시스템 문서에 포함되어야.
